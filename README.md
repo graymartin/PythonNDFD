@@ -20,3 +20,11 @@ Or, if you use Conda for package management:
 ```python
 conda install -c conda-forge eccodes
 ```
+
+# ndfd_get_sco_data_script.py
+
+This script grabs *historic* NDFD data from the North Carolina State Climate Office (SCO) THREDDS Server (TDS) for a specified past date. The original NDFD binary (.bin) file is converted to a panadas dataframe with the option to save total probability of precipitation for the next 12 hours (pop12) data and/or total accumulation of precipitation for the last 6 hours (i.e., quantitative precipitation frequency; qpf) data to a local directory as a .csv file. The units for pop12 are % and the units for qpf are km/m2, which can be converted to inches.
+
+# ndfd_historic_forecast_analysis_script.R
+
+This script takes locally stored data outputs from ndfd_get_sco_data_script.py, wrangles it, and plots it.
