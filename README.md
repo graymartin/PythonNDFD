@@ -8,7 +8,7 @@ This project works mainly with NDFD Grid Data, but NDFD Point Access Data is ava
 # Requirements
 To download the necessary requirements, `git clone` this repository and run this command:
 ```python
-pip install requirements.txt
+pip install -r  requirements.txt
 ```
 This should work in a Conda environment to, but I'm not certain of that.
 
