@@ -10,7 +10,7 @@ To download the necessary requirements, `git clone` this repository and run this
 ```python
 pip install -r  requirements.txt
 ```
-This should work in a Conda environment to, but I'm not certain of that.
+This will also work in a Conda environment, although it is not the preferred way of installing dependings in Conda.
 
 The `cfgrib` library, which we use to load GRIB2 files, may require [some additional tools](https://github.com/ecmwf/cfgrib) for setup. If you are running MacOS, you can install this extra stuff using this command:
 ```python
